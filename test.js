@@ -4,7 +4,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 (async function googleSearch() {
   let driver = await new Builder()
     .forBrowser("chrome")
-    .usingServer("http://13.235.71.14:4444/wd/hub/")
+    .usingServer("http://3.110.135.212:4444/wd/hub/")
     // .setChromeService(
     //  chrome.setDefaultService(
     //    new chrome.ServiceBuilder("./drivers/chromedriver_89").build()
