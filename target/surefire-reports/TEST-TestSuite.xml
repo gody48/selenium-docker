@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="5.231" tests="14" errors="0" skipped="13" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/root/DemoYouFactors"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/root/DemoYouFactors"/>
+    <property name="java.runtime.version" value="1.8.0_342-8u342-b07-0ubuntu1~20.04-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.13.0-1029-aws"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="launch" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="5.231">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ip-172-31-0-156&apos;, ip: &apos;172.31.0.156&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-1029-aws&apos;, java.version: &apos;1.8.0_342&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x556ef557d693 &lt;unknown&gt;&#10;#1 0x556ef5376b0a &lt;unknown&gt;&#10;#2 0x556ef539946e &lt;unknown&gt;&#10;#3 0x556ef53971f4 &lt;unknown&gt;&#10;#4 0x556ef53d2953 &lt;unknown&gt;&#10;#5 0x556ef53cc743 &lt;unknown&gt;&#10;#6 0x556ef53a2533 &lt;unknown&gt;&#10;#7 0x556ef53a3715 &lt;unknown&gt;&#10;#8 0x556ef55cd7bd &lt;unknown&gt;&#10;#9 0x556ef55d0bf9 &lt;unknown&gt;&#10;#10 0x556ef55b2f2e &lt;unknown&gt;&#10;#11 0x556ef55d19b3 &lt;unknown&gt;&#10;#12 0x556ef55a6e4f &lt;unknown&gt;&#10;#13 0x556ef55f0ea8 &lt;unknown&gt;&#10;#14 0x556ef55f1052 &lt;unknown&gt;&#10;#15 0x556ef560b71f &lt;unknown&gt;&#10;#16 0x7fa0b9aa0609 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-0-156', ip: '172.31.0.156', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1029-aws', java.version: '1.8.0_342'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x556ef557d693 <unknown>
+#1 0x556ef5376b0a <unknown>
+#2 0x556ef539946e <unknown>
+#3 0x556ef53971f4 <unknown>
+#4 0x556ef53d2953 <unknown>
+#5 0x556ef53cc743 <unknown>
+#6 0x556ef53a2533 <unknown>
+#7 0x556ef53a3715 <unknown>
+#8 0x556ef55cd7bd <unknown>
+#9 0x556ef55d0bf9 <unknown>
+#10 0x556ef55b2f2e <unknown>
+#11 0x556ef55d19b3 <unknown>
+#12 0x556ef55a6e4f <unknown>
+#13 0x556ef55f0ea8 <unknown>
+#14 0x556ef55f1052 <unknown>
+#15 0x556ef560b71f <unknown>
+#16 0x7fa0b9aa0609 <unknown>
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at demoIntializer.Browser.LaunchBrowser(Browser.java:71)
+	at DemoYouFactors.DemoYouFactors.UserLaunch.launch(UserLaunch.java:54)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 18832
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="excel" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="excel" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="excel" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="excel" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ALogin" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="AddUserAssignCourse" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="AdminLogout" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UserCourseComplete" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="endtest" classname="DemoYouFactors.DemoYouFactors.UserLaunch" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

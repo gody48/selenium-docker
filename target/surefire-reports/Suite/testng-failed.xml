@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="demoIntializer.DemoExtentReport"/>
+  </listeners>
+  <test name="UserLaunchCourse">
+    <classes>
+      <class name="DemoYouFactors.DemoYouFactors.UserLaunch"/>
+    </classes>
+  </test> <!-- UserLaunchCourse -->
+  <test name="UserLaunchCourse(failed)">
+    <classes>
+      <class name="DemoYouFactors.DemoYouFactors.UserLaunch">
+        <methods>
+          <include name="ALogin"/>
+          <include name="AddUserAssignCourse"/>
+          <include name="UserCourseComplete"/>
+          <include name="AdminLogout"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- DemoYouFactors.DemoYouFactors.UserLaunch -->
+    </classes>
+  </test> <!-- UserLaunchCourse(failed) -->
+</suite> <!-- Failed suite [Suite] -->

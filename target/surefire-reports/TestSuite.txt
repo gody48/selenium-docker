@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 13, Time elapsed: 6.11 sec <<< FAILURE! - in TestSuite
+launch(DemoYouFactors.DemoYouFactors.UserLaunch)  Time elapsed: 5.231 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-0-156', ip: '172.31.0.156', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1029-aws', java.version: '1.8.0_342'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x556ef557d693 <unknown>
+#1 0x556ef5376b0a <unknown>
+#2 0x556ef539946e <unknown>
+#3 0x556ef53971f4 <unknown>
+#4 0x556ef53d2953 <unknown>
+#5 0x556ef53cc743 <unknown>
+#6 0x556ef53a2533 <unknown>
+#7 0x556ef53a3715 <unknown>
+#8 0x556ef55cd7bd <unknown>
+#9 0x556ef55d0bf9 <unknown>
+#10 0x556ef55b2f2e <unknown>
+#11 0x556ef55d19b3 <unknown>
+#12 0x556ef55a6e4f <unknown>
+#13 0x556ef55f0ea8 <unknown>
+#14 0x556ef55f1052 <unknown>
+#15 0x556ef560b71f <unknown>
+#16 0x7fa0b9aa0609 <unknown>
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at demoIntializer.Browser.LaunchBrowser(Browser.java:71)
+	at DemoYouFactors.DemoYouFactors.UserLaunch.launch(UserLaunch.java:54)
+
